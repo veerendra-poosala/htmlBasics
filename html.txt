@@ -1,0 +1,46 @@
+what to do now?
+use below tags
+1.headings<hn id="">
+2.paragraph tag
+3.blockquote tag
+4.page break
+5.ordered list
+6.un ordered list
+7.pre formated text
+8.acronyms
+9.details tag,summary
+10.blank spaces,&nbsp;
+11.background image
+12.background colour
+13.data list(dl),data term(dt),data definition(dd)
+14.font (attributes:face,size,color)
+15.font effects (u,s,sub,sup)
+16.font styles(b,i)
+17.horizontal line(size,width,align,no shade,colour)
+18.img<src,alt,border,width,height,vspace,hspace,align>
+19.links(<a href= )
+   a.intra links(#)
+   b.inter links(target=_blank,javascript:widow.open())
+20.tables
+21.form element
+22.field set &legend
+23.select and option
+24.buttons
+25.text area
+26.meter and progress
+27.check box
+28.drop down list
+29.input element
+   1.type
+   2.name
+   3.place holder
+   4.auto focus
+   5.read only
+   6.min
+   7.max
+   8.maxlength
+   9.required
+   10.size
+   11.pattern
+   12.list
+   13.value

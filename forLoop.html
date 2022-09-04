@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function uname()
+            {
+                var userNames=[
+                    {name:"veerendra"},
+                    {name:"dhoni"},
+                    {name:"virat"},
+                    {name:"chandu"},]
+                var userName=document.getElementById("txtName").value;
+                var msg=document.getElementById("msg");
+                
+                for(var i=0;i<userNames.length;i++)
+                {
+                    if(userName.length>=4 && userName.length<=20)
+                    {
+                        if(userName==userNames[i].name)
+                        {
+
+                            msg.innerHTML="user name already exists";
+                            msg.style.color="red";
+                            return
+
+                        }
+                    /*                      else if(userName=="")
+                        {
+                            msg.innerHTML="UserName can't be empty";
+                            msg.style.color="orange"
+                        }*/
+                    else
+                        {
+                            msg.innerHTML="Available";
+                            msg.style.color="green";
+                        }
+                    }
+                    else
+                    {
+                        msg.innerHTML="UserName characters must be in between min 4 & max 20 ";
+                        msg.style.color="red";
+                    }
+                }
+            }
+
+
+
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>Login</legend>
+                <dl>
+                    <dt>UserName</dt>
+                    <dd><input type="text" autofocus placeholder="Enter user name here" id="txtName" onkeyup="uname()"></dd>
+
+                </dl>
+            
+                <br>
+                <label style="color: red;font-weight: bold;" id="msg"></label>
+
+            </fieldset>
+        </div>
+    </body>
+</html>

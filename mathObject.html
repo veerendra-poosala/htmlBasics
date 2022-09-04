@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function numChange()
+            {
+                var label=document.getElementById("number");
+                var a= Math.random()*10;
+                var b= Math.random()*10;
+                var c= Math.random()*10;
+                var d= Math.random()*10;
+                var e= Math.random()*10;
+
+                label.innerHTML=""+Math.round(a)+""+Math.round(b)+""+Math.round(c)+""+Math.round(d)+""+Math.round(e)
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <div align="center">
+            <label id="number" style="font-weight: bold;">10297</label>
+            <br>
+            <br>
+            <input type="button" value="refresh" onclick="numChange()">
+        </div>
+    </body>
+</html>

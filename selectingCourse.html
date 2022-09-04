@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function select()
+            {
+                var js=document.getElementById("js");
+                var py=document.getElementById("py");
+                var net=document.getElementById("net");
+                var lbl=document.getElementById("lbl");
+                var course=" ";
+
+                if(js.checked)
+                {
+                    course+=js.value+"<br>" 
+                }
+                if(py.checked)
+                {
+                    course+=py.value+"<br>" 
+                }
+                if(net.checked)
+                {
+                    course+=net.value+"<br>" 
+                }
+
+                lbl.innerHTML="Selected Courses"+"<br>"+course;
+
+            }
+            
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>
+                    Select your course
+                </legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="js" value="JavaScript" >JavaScript
+                    </li>
+                    <li>
+                        <input type="checkbox" id="py" value="Python" >Python
+
+                    </li>
+                    <li>
+                        <input type="checkbox" id="net" value=".Net">.Net
+
+                    </li>
+                    <li>
+                        <input type="button" value="submit" onclick="select()">
+
+                    </li>
+                </ul>
+            </fieldset>
+            
+        </div><br><br>
+        <div id="lbl"></div>
+    </body>
+</html>

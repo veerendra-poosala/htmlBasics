@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function create()
+            {
+                var container=document.getElementById("container");
+                var pic=new Image();
+                pic.src="samsung tv.jpg";
+                pic.width=100;
+                pic.height=100;
+                pic.border="2";
+                container.append(pic)
+            }
+
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <div id="container"></div>
+            <br>
+            <input type="button" value="create image" onclick="create()">
+        </div>
+    </body>
+</html>

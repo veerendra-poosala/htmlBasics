@@ -1,0 +1,206 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            header{
+                background-color:cornflowerblue;
+                color:white;
+                width: auto;
+
+            }
+        </style>
+    </head>
+    <body>
+      <header><h2 draggable="true" align="center">Registration form</h2></header>
+      <section>
+          <div>
+              <form id="registration form" method="POST" >
+                  <table align="left" width="600" style="color: black;" >
+                      <colgroup span="4" style="border:double;">
+                        
+                            <tr>
+                                <td>
+                                    Name
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="enter your name" autofocus pattern="[a-z,A-Z]" name="txtname" required>
+                                </td>
+                                <td>
+                                    Surname
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="enter your surname" autofocus pattern="[A-Z]" name="txtsurname" required>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    Email
+                                </td>
+                                <td>
+                                    <input type="email" placeholder="@abc.com" autofocus required name="txtemail">
+                                </td>
+                                <td>
+                                    Phone number
+                                </td>
+                                <td>
+                                    <input type="number" pattern="[0-9]" autofocus name="txtphonenumber" required  maxlength="10">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    address
+                                </td>
+                                <td>
+                                    <textarea rows="4" cols="15">
+                                    
+                                    </textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Aadhar number
+                                </td>
+                                <td>
+                                    <input type="number" autofocus required minlength="12" maxlength="12" name="txtaadharnumber"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Favourite color
+                                </td>
+                                <td>
+                                    <input type="color" autofocus name="txtcolor" >
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Favourite cricketer
+                                </td>
+                                <td>
+                                    <input type="text" list="players" name="txtfavplayers">
+                                    <datalist id="players">
+                                        <select>
+                                            <option>sachin</option>
+                                            <option>sehwag</option>
+                                            <option>kohli</option>
+                                            <option>dhoni</option>
+                                            <option>others</option>
+                                        </select>
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Set your password
+                                </td>
+                                <td>
+                                    <input type="password" pattern="[a-z],[A-Z],[0-9]" required autofocus name="txtsetyourpassword" maxlength="12" minlength="4">
+                                </td>
+                                <td>
+                                    Confirm your password
+                                </td>
+                                <td>
+                                    <input type="password" pattern="[a-z,A-Z,0-9]" required autofocus name="txtconfirmyourpassword" maxlength="12" minlength="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Upload a photo
+                                </td>
+                                <td>
+                                    <input type="file" name="filephoto" autofocus required>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>select one city</td>
+                                <td align="left">
+                                    <select>
+                                        <option>Kakinada</option>
+                                        <option>Hyderabad</option>
+                                        <option>Vizag</option>
+                                        <option>Banglore</option>
+                    
+                                    </select>
+
+                                </td>
+                            </tr>
+
+                            
+                            <tr>
+                                <td colspan="2" align="center">
+                                <input type="submit" value="Register">
+                                </td>
+                            </tr>
+
+                        </colgroup>
+
+        
+                    </table>
+                </form>
+            </div>
+            <br>
+            <form style="align-content: center;">
+                <fieldset style="width: 100px;">
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" value="male" checked>Male
+                    <br>
+                    <input type="radio" name="gender" value="female">Female
+                </fieldset>
+
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>
+                        Download Progress
+                    </legend>
+                    <progress max="100" min="1" value="60"></progress>
+                </fieldset>
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>
+                        Profile
+                    </legend>
+                    <meter min="1" max="100" value="84"></meter>
+                </fieldset>
+            </form>
+            <br>
+            <form>
+                <table style="position:-ms-page;">
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Licence terms</legend>
+                                <textarea rows="4" cols="40" readonly>All the manadatory fields are filled myself</textarea><br>
+                                <input type="checkbox"> Accept terms & Conditions
+
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <form>
+                <input type="submit" value="SUBMIT" name="SUBMIT">
+            </form>
+            
+            
+            
+        </section>
+        <footer>
+
+
+            
+            
+
+        </footer>
+    </body>
+</html>

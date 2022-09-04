@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>online Gadgets.com</title>
+        <link rel="icon" href="e:/website/images/favicon.ico">
+        <script type="text/javascript" lang="javascript">
+            function showProducts(){
+                var productNames=["Mobile Phone","Telivision","Laptop","A.C","Refrigerator"];
+                var productImages=["real me x.jpg","samsung tv.jpg","red mi laptop.jpg","samsung ac.jpg","samsung fridge.jpg"];
+                var productCompanies=["Real me","Samsung","Red mi","Samsung","Samsung"];
+
+
+                var prodName=document.getElementById("prodName");
+                var pic=document.getElementById("pics");
+                var productCompany=document.getElementById("prodComp");
+                var booknow=document.getElementById("booknow")
+                var txtRange=document.getElementById("txtRange");
+               
+                prodName.innerHTML=productNames[txtRange.value];
+                pic.background=productImages[txtRange.value];
+                productCompany.innerHTML=productCompanies[txtRange.value];
+
+            }
+        </script>
+
+
+    </head>
+    <body>
+        <div>
+            <table width="400" border="2" cellspacing="5" cellpadding="5" align="center">
+                <tr>
+                    <td id="prodName" align="center"></td>
+                </tr>
+                <tr>
+                    <td id="pics" background="real me x.jpg" width="300" height="500">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="prodComp" align="center">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <input id="txtRange" type="range" min="0" max="4" value="0" onchange="showProducts()">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="booknow"><a href="booking_gadget.html" target="_blank">Book Now!</a></td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>

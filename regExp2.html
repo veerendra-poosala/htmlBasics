@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regular Expressions</title>
+        <script type="text/javascript" lang="javascript">
+            function validate(){
+                var userName=document.getElementById("userName").value
+                var password=document.getElementById("pwd").value
+                
+                
+                var userNameReg=/\w{6,}/g
+                var passwordReg=/(?=[A-Z])\w{6,15}/g
+
+                if(passwordReg.test(password))
+                {
+                    document.getElementById("label").innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log In Successful.."
+                    document.getElementById("label").style.visibility="visible"
+                    document.getElementById("label").style.color="blue"
+
+                }
+                else
+                {
+                    document.getElementById("label").innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In valid UserName or Password.."
+                    document.getElementById("label").style.visibility="visible"
+                    document.getElementById("label").style.color="red"
+                }
+            }
+
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <form style="border:double;">
+                <legend><a href="#userName"><b>Sign In</b></a></legend><br>
+                <form id="loginDetails">
+                    &nbsp;&nbsp;
+                    User Name : <input type="text" id="userName" placeholder="Enter your user name" maxlength="25" autofocus required><br><br>
+                    &nbsp;&nbsp;
+                    Password  :&nbsp;&nbsp;&nbsp;<input type="password"  id="pwd" placeholder="Enter your password" ><br>
+                    <label style="color: red;visibility: hidden;font-weight: bold;" id="label"></label><br></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="Login" onclick="validate()" id="login"><br><br>
+
+                </form>
+            </form>
+        </div>
+
+    </body>
+</html>

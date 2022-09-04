@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            userDetails={userName:"veerendra",password:"V12345",otp:12345}
+            function uname()
+            {
+                var uName=document.getElementById("txtName").value;
+                var reg1=/\w{4,25}/g;
+                if(uName.match(reg1))
+                {
+                    var msg=document.getElementById("msg");
+                    msg.innerHTML="user name valid";
+                    msg.style.visibility="hidden";
+                    msg.style.color="blue";
+                    
+                }
+                else
+                {
+                    var msg=document.getElementById("msg");
+                    msg.innerHTML="Please Enter valid user name";
+                    msg.style.visibility="visible";
+                    msg.style.color="red";
+
+                }
+            }
+            function pwd()
+            {
+                var pass_word=document.getElementById("txtPwd").value;
+                var reg2=/(?=[A-Z])\w{4,15}/g
+                if (pass_word.match(reg2))
+                {
+                    var msg=document.getElementById("msg");
+                    msg.innerHTML="you entered valid password";
+                    msg.style.visibility="hidden";
+                    
+                    
+                }
+                else
+                {
+                    var msg=document.getElementById("msg");
+                    msg.innerHTML="Please Enter valid password";
+                    msg.style.visibility="visible";
+                    msg.style.color="red";
+                } 
+            }
+            
+            function valid()
+            {
+                var uName=document.getElementById("txtName").value;
+                var msg=document.getElementById("msg");
+                var pass_word=document.getElementById("txtPwd").value;
+                var OTP=document.getElementById("otp").value;
+
+                if(userDetails.userName==uName)
+                {
+                    if((userDetails.password == pass_word) && (userDetails.otp==OTP))
+                    {
+                        document.write("Login successful")
+                        msg.style.visibility="hidden";
+
+                    }
+                    else if((userDetails.password == pass_word))
+                    {
+                        msg.innerHTML="otp mis-matching";
+                        msg.style.visibility="visible";
+                        msg.style.color="red";
+
+                    }
+                    else
+                    {
+                        msg.innerHTML="password mis-matching";
+                        msg.style.visibility="visible";
+                        msg.style.color="red";
+
+                    }
+
+                }
+                else
+                {
+                    msg.innerHTML="Please Enter valid Username and Password";
+                    msg.style.visibility="visible";
+                    msg.style.color="red";
+
+                }
+
+
+            }
+
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <fieldset style="width: fit-content;">
+                <legend>Login</legend>
+                <table >
+                    <tr>
+                        <td>UserName</td>
+                        <td><input type="text" autofocus placeholder="Enter user name " id="txtName" onkeyup="uname()"  maxlength="25"></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Password
+                        </td>
+                        <td><input type="password" minlength="4" maxlength="15" id="txtPwd" placeholder="Enter Password " onkeyup="pwd()" ></td>
+                    </tr>
+                    <tr>
+                        <td>OTP</td>
+                        <td><input type="number" minlength="4" maxlength="6" required id="otp"></td>
+                    </tr>
+                    <tr><td align="center"><input type="button" value="Login" id="btnSubmit" onclick="valid()"></td></tr>
+                </table>
+                <br>
+                <div id="msg" style="visibility: hidden;color: red;font-weight: bold;"></div>
+            </fieldset>
+        </div>
+    </body>
+</html>

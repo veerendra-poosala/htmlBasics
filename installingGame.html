@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function selectingHdd()
+            {
+                var selHdd=document.getElementById("selHdd");
+                var selRam=document.getElementById("selRam");
+
+                if(parseInt(selHdd.value)>=5)
+                {
+                    selRam.disabled=false;
+                    selHdd.disabled=true;
+                }
+            }
+            
+            function selectingRam()
+            {   
+                var selRam=document.getElementById("selRam");
+                var optGraphicCard=document.getElementById("opt")
+
+                if(selRam.value >=4)
+                {
+                    selRam.disabled=true;
+                    optGraphicCard.disabled=false;
+                }
+            }
+
+            function selectingGraphicCard()
+            {
+                var optGraphicCard=document.getElementById("opt")
+                var install=document.getElementById("install")
+
+                if(optGraphicCard.value=="yes")
+                {
+                    optGraphicCard.disabled=true;
+                    install.disabled=false;
+                    
+                }
+                else
+                {
+                    optGraphicCard.disabled=false;
+
+                }
+            }
+            
+            function installing()
+            {
+                document.write("Installed Successfully")
+
+            }
+
+        </script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend style="color: royalblue;">Installing  X  Game
+
+                </legend>
+                <dl>
+                    
+                    <dt>Choose Hard Disk space</dt>
+                    <dd>
+                        <select id="selHdd" onchange="selectingHdd()">
+                            <option value="2">2GB</option>
+                            <option value="5">5GB</option>
+                            <option value="10">10GB</option>
+                        </select>
+                    </dd>
+                    <dt>
+                        Choose Ram
+                    </dt>
+                    <dd>
+                        1<input type="number" min="1" max="8" value="2"  onchange="selectingRam()" id="selRam" disabled>8
+                    </dd>
+                    <dt>
+                        Is Graphic Card Available
+                    </dt>
+                    <dd>
+                        <select id="opt" onchange="selectingGraphicCard()" disabled >
+                            <option value="no" >No</option>
+                            <option value="yes">Yes</option>
+                            
+                        </select>
+    
+                    </dd>
+                    <dt>Install Game</dt>
+                    <dd ><input type="button" id="install" value="install" onclick="installing()" disabled></dd>
+                </dl>
+            </fieldset>
+        </div>
+    </body>
+</html>

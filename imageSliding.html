@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var products=["real me x.jpg","red mi laptop.jpg","samsung ac.jpg","samsung fridge.jpg","samsung tv.jpg"];
+            var count=0;
+            
+            function prev()
+            {
+                if(count>0 )
+                {
+                    var pic=document.getElementById("pic");
+                    --count;
+                    pic.src=products[count];
+                }
+            
+                
+                
+
+            }
+            function next()
+            {
+                if(count<4)
+                {
+                    var pic=document.getElementById("pic");
+                    count++;
+                    pic.src=products[count];
+                    
+                }
+            }
+
+
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <table align="center" border="2">
+                <tr>
+                    <td>
+                        <input type="button" value="Prev" id="prevBtn" onclick="prev()">
+
+                    </td>
+                    <td>
+                        <img src="real me x.jpg" width="200" height="200" id="pic">
+                    </td>
+                    <td>
+                        <input type="button" value="Next" id="nextBtn" onclick="next()">
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>

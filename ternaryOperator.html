@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function login()
+            {
+                var uname=document.getElementById("txtname").value;
+                var pwd=document.getElementById("txtpwd").value;
+                var msg=document.getElementById("msg")
+                var userDetails={userName:"veeru",password:"12345"};
+
+                //(uname==userDetails.userName && pwd==userDetails.password)?alert("Login Successful"):msg.innerHTML="Invalid UserName or Password"
+                if((uname==userDetails.userName && pwd==userDetails.password))
+                {
+                    alert("Login Successful");
+                    msg.style.visibility="hidden"
+                }
+                else
+                {
+                    msg.innerHTML="Invalid UserName or Password";
+                    document.getElementById("msg").style.visibility="visible";
+                    document.getElementById("msg").style.color="red";
+                }
+
+            }
+
+        </script>
+
+    </head>
+    <body>
+        <div>
+            <dl>
+                <dt>
+                    UserName :
+                </dt>
+                <dd>
+                    <input type="text" autofocus  id="txtname" placeholder="Enter your user name" minlength="4" maxlength="25">
+                </dd>
+                <dt>
+                    Password :
+                </dt>
+                <dd>
+                    <input type="password" id="txtpwd" minlength="4" maxlength="15">
+                </dd>
+                
+            </dl>
+            <br>
+            <div align="center"><input type="button" value="submit" onclick="login()"></div>
+        </div>
+        <br>
+        <div>
+            <h3 id="msg" style="color: red; font-weight: bold ;visibility: hidden;" ></h3>
+        </div>
+    </body>
+</html>

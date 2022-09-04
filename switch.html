@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function f1()
+            {
+                var day=document.getElementById("day").value;
+                switch(day)
+                {
+                    case "monday":
+                        {
+                            var msg=document.getElementById("msg");
+                            msg.innerHTML="So many devotes praying for lord Shiva on Monday";
+                            msg.style.color="darkblue";
+                            msg.style.visibility="visible";
+                            break;
+                        }
+                        case "tuesday":
+                        {
+                            var msg=document.getElementById("msg");
+                            msg.innerHTML="So many devotes praying for lord Hanuma on Tuesday";
+                            msg.style.color="orange";
+                            msg.style.visibility="visible";
+                            break;
+                        }
+                        case "thursday":
+                        {
+                            var msg=document.getElementById("msg");
+                            msg.innerHTML="So many devotes praying for lord sai on thurs day";
+                            msg.style.color="cyan";
+                            msg.style.visibility="visible";
+                            break;
+                        }
+                        case "friday":
+                        {
+                            var msg=document.getElementById("msg");
+                            msg.innerHTML="So many devotes praying for Maa Durga on friday";
+                            msg.style.color="red";
+                            msg.style.visibility="visible";
+                            break;
+                        }
+                        default:
+                            {
+                                var msg=document.getElementById("msg");
+                                msg.innerHTML="Every Day is a special day";
+                                msg.style.color="green";
+                                msg.style.visibility="visible";
+                                break;
+
+
+                            }
+                        
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <span><h3>Enter your favourite weekDay</h3></span>
+            <input type="text" id="day" placeholder="only lower case letters" autofocus>
+            <br>
+            <div id="msg" style="visibility: hidden;color:powderblue;font-weight: bold;"></div>
+            <br>
+            <input type="button" value="submit" onclick="f1()" >
+        </div>
+    </body>
+</html>
