@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="podCastPageStyleSheet.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="podCastPage-bg-container">
+        <div class="podCastPage-home-card" id="sectionHomeCard">
+            <div class="podCastPage-home-card-top-section">
+                <h1 class="podCastPage-home-card-main-heading">Podcasts</h1>
+            </div>
+            <div class="d-flex flex-column ">
+                <div class="podCastPage-home-card-middle-section d-flex flex-row justify-content-center">
+                    <div class="about-puri" onclick="display('sectionPuriCard')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podCastPage-images" />
+                        <h1 class="podCastPage-person-name-heading">Puri jagannath</h1>
+                        <p class="podCastPage-episodes-paragraph">24 Episodes</p>
+                    </div>
+                    <div class="about-puri" onclick="display('sectionTedexCard')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podCastPage-images" />
+                        <h1 class="podCastPage-person-name-heading">Tedx talks</h1>
+                        <p class="podCastPage-episodes-paragraph">12 Episodes</p>
+                    </div>
+                </div>
+                <div class="podCastPage-home-card-middle-section d-flex flex-row justify-content-center">
+                    <div class="about-puri" onclick="display('sectionSadguruCard')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podCastPage-images" />
+                        <h1 class="podCastPage-person-name-heading">Sadguru</h1>
+                        <p class="podCastPage-episodes-paragraph">40 Episodes</p>
+                    </div>
+                    <div class="about-puri" onclick="display('sectionOnPurposeCard')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podCastPage-images" />
+                        <h1 class="podCastPage-person-name-heading">On purpose</h1>
+                        <p class="podCastPage-episodes-paragraph">49 Episodes</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="podCastPage-puri-card" id="sectionPuriCard">
+
+            <div class="podCastPage-puri-card-bg-container">
+                <div class="d-flex flex-row podCastPage-individual-card-top-section">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podCastPage-images" />
+                    <div class="podCastPage-individual-card-top-section-text-card d-flex flex-column justify-content-center ">
+                        <p class="podCastPage-individual-card-top-section-paragraph">Podcast</p>
+                        <h1 class="podCastPage-individual-card-top-section-name-in-heading">Puri Jagannath Podcast</h1>
+                        <p class="podCastPage-individual-card-top-section-paragraph">The Puri Jagannadh Podcast</p>
+                    </div>
+                </div>
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row justify-content-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Molecular Gastronomy</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Anything happens there it will not cook...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">15 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Mysterious book</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">The Voynich manuscript is the 15th century book...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">12 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Predator Drone</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">The most power full drone.It is 10 feet height...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">10 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Paela</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">The national dish of spain.It was first star...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">4 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="podCastPage-individual-card-back-button btn " onclick="display('sectionHomeCard')">
+                        Back
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="podCastPage-tedex-card" id="sectionTedexCard">
+
+            <div class="podCastPage-puri-card-bg-container">
+                <div class="d-flex flex-row podCastPage-individual-card-top-section">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podCastPage-images" />
+                    <div class="podCastPage-individual-card-top-section-text-card d-flex flex-column justify-content-center ">
+                        <p class="podCastPage-individual-card-top-section-paragraph">Podcast</p>
+                        <h1 class="podCastPage-individual-card-top-section-name-in-heading">The Tedx Podcast</h1>
+                        <p class="podCastPage-individual-card-top-section-paragraph">The Tedx Podcast</p>
+                    </div>
+                </div>
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">The science of friction</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Tribology:It's a funny sounding word you might...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">12 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Unleash you</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">What can we learn from world's most enduringly...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">8 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">3 psychological tricks</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">We all want to save more moner-but overall...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">10 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">The case of stubborn</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">This decade is a moment of choice unlike any we....</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">12 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="podCastPage-individual-card-back-button btn " onclick="display('sectionHomeCard')">Back</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="podCastPage-sadguru-card" id="sectionSadguruCard">
+
+            <div class="podCastPage-puri-card-bg-container">
+                <div class="d-flex flex-row podCastPage-individual-card-top-section">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podCastPage-images" />
+                    <div class="podCastPage-individual-card-top-section-text-card d-flex flex-column justify-content-center ">
+                        <p class="podCastPage-individual-card-top-section-paragraph">Podcast</p>
+                        <h1 class="podCastPage-individual-card-top-section-name-in-heading">The Sadhguru Podcast</h1>
+                        <p class="podCastPage-individual-card-top-section-paragraph">The Sadhguru Podcast</p>
+                    </div>
+                </div>
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row justify-content-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Head or heart</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Sadhguru shares his wisdom on how to make...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">16 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">How to equip yourself</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Society and human interactions are going...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">13 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">How not to ger irritated</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">How do you see an unpleasant spouse the...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">15 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Isha Kriya</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Rooted in the timeless wisdom if the yogic...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">16 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="podCastPage-individual-card-back-button btn " onclick="display('sectionHomeCard')">
+                        Back
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="podCastPage-OnPurpose-card" id="sectionOnPurposeCard">
+
+            <div class="podCastPage-puri-card-bg-container">
+                <div class="d-flex flex-row podCastPage-individual-card-top-section">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podCastPage-images" />
+                    <div class="podCastPage-individual-card-top-section-text-card d-flex flex-column justify-content-center ">
+                        <p class="podCastPage-individual-card-top-section-paragraph">Podcast</p>
+                        <h1 class="podCastPage-individual-card-top-section-name-in-heading">On Purpose with Jay</h1>
+                        <p class="podCastPage-individual-card-top-section-paragraph">The Jay Shetty Podcast</p>
+                    </div>
+                </div>
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row justify-content-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Patrick Bet David</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Are you an entrepreneur or have dream of mental...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">10 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">5 Techiniques to cope</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph"> Does anxiety looms around every corner of y...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">4 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">Radhanath Swami ON</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">World-renowed spritual leader and philanthropist...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">12 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="podCastPage-individual-card-bottom-section">
+                    <div class="d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podCastPage-images" />
+                        <div class="podCastPage-individual-card-bottom-section-text-card d-flex flex-column justify-content-center">
+                            <h1 class="podCastPage-individual-card-bottom-section-name-in-heading">3 Ways to let go</h1>
+                            <p class="podCastPage-individual-card-bottom-section-paragraph">Do the opinions of others veer you from the core...</p>
+
+                            <p class="podCastPage-individual-card-bottom-section-time-paragraph">12 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="podCastPage-individual-card-back-button btn " onclick="display('sectionHomeCard')">
+                        Back
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

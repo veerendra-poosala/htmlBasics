@@ -1,0 +1,56 @@
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png
+
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.hotel-booking-pg-bg-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png');
+
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.hotel-booking-pg-card {
+    background-color: #000000e6;
+    margin: 30px;
+    padding: 6px;
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.hotel-booking-pg-card-hotel-name {
+    font-family: "Bree Serif";
+    padding: 5px;
+}
+
+.hotel-booking-pg-card-hotel-address {
+    font-family: "Roboto";
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.hotel-booking-pg-card-hotel-price {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px;
+
+
+}
+
+.hotel-booking-pg-card-hotel-booknow-button {
+    background-color: #ffffff;
+    color: black;
+    height: 30px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 100px;
+
+}
+
+

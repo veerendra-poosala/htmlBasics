@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* for feature section heading */
+.feature-section-heading {
+    margin: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f2933;
+    font-family: "Roboto";
+}
+
+/* for feature section image */
+.feature-section-content-image {
+    height: 80px;
+    width: 80px;
+}
+
+.feature-section-content-heading {
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: #1f2933;
+}
+
+.feature-section-content-description {
+    color: #7b8794;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/* styling for special word "natural interaction" */
+
+.interaction-natural-span {
+    color: #1f2933;
+    font-weight: 600;
+    font-style: italic;
+}

@@ -1,0 +1,155 @@
+
+
+<!-- myProjects webpage i.e integrated few of code snippets -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My project page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="myProjects-bg-container">
+
+        <!-- myProjects-home-page -->
+        <div class="myProjects-home-page" id="sectionHomePage">
+
+            <div class="myProjects-home-page-top-section d-flex flex-column justify-content-start">
+                <!-- top section -->
+                <div class="myProjects-home-page-top-section-image-container">
+
+                </div>
+                <!-- middle section -->
+                <div class="myProjects-home-page-middle-section-text-card">
+
+                    <h1 class="myProjects-home-page-middle-section-text-heading">My Projects</h1>
+                    <p class="myProjects-home-page-middle-section-text-paragraph">
+                        These are a few of my static website projects that i have
+                        developed using HTML,CSS and Bootstrap.
+                    </p>
+
+                </div>
+                <!-- bottom section -->
+                <div class="myProjects-home-page-bottom-section d-flex flex-row justify-content-center ">
+                    <div>
+                        <!-- myProjects-home-page-bottom-section-column1 -->
+                        <div class="myProjects-home-page-bottom-section-column1 d-flex flex-row ">
+                            <img class="myProjects-home-page-bottom-section-column-image" onclick="display('sectionAdvancedTechnologiesPage')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" />
+                            <img class="myProjects-home-page-bottom-section-column-image" onclick="display('sectiondiwaliCelebrationsPage')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" />
+                        </div>
+
+                        <!-- myProjects-home-page-bottom-section-column2 -->
+                        <div class="myProjects-home-page-bottom-section-column1 d-flex flex-row ">
+                            <img class="myProjects-home-page-bottom-section-column-image" onclick="display('sectionhappyMealsPage')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" />
+                            <img class="myProjects-home-page-bottom-section-column-image" onclick="display('sectionnewsPaperPage')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- myProject-advancedTechnologies -->
+        <div class="myProject-advancedTechnologiesPage" id="sectionAdvancedTechnologiesPage">
+
+            <div class="advanced-technologies-cp-bg-container d-flex flex-column justify-content-end">
+                <div class="advanced-technologies-cp-card d-flex flex-column">
+                    <h1 class="advanced-technologies-cp-card-main-heading">Advanced Technologies</h1>
+                    <p class="advanced-technologies-cp-card-description">
+                        Machinery and equipment developed from the application of scientific knowledge.
+                    </p>
+                    <div class="advanced-technologies-cp-card-buttons d-flex flex-row justify-content-center">
+                        <button class="advanced-technologies-cp-card-button-learnmore btn ">Learn more</button>
+                        <button class="advanced-technologies-cp-card-button-save-draft btn " onclick="display('sectionHomePage')">Home</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- myProject-diwaliCelebrationsPage -->
+        <div class="myProject-diwaliCelebrationsPage" id="sectiondiwaliCelebrationsPage">
+
+            <div class="bg-container-diwali">
+                <h1 class="main-heading-diwali">Celebrate diwali with your friends</h1>
+                <div class="bottom-container-diwali ">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row justify-content-center ">
+                            <div class="card-item-diwali">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="card-image-diwali" />
+                                <h1 class="card-item-description-diwali">Diwali Air-Baloon</h1>
+                                <p class="price-description-diwali">Rs 369</p>
+                            </div>
+                            <div class="card-item-diwali">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="card-image-diwali" />
+                                <h1 class="card-item-description-diwali">Diwali lamp</h1>
+                                <p class="price-description-diwali">Rs 50</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center ">
+                            <div class="card-item-diwali">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="card-image-diwali" />
+                                <h1 class="card-item-description-diwali">Sparklers</h1>
+                                <p class="price-description-diwali">Rs 150</p>
+                            </div>
+                            <div class="card-item-diwali">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="card-image-diwali" />
+                                <h1 class="card-item-description-diwali">Fire Crackers</h1>
+                                <p class="price-description-diwali">Rs 560</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button-diwali btn btn-primary " onclick="display('sectionHomePage')">Home</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- myProject-happyMealsPage -->
+        <div class="myProject-happyMealsPage" id="sectionhappyMealsPage">
+
+            <div class="bg-container d-flex flex-column justify-content-end">
+                <div class="card-1 card justify-content-center">
+                    <h1 class="main-header">Happy Meals</h1>
+                    <p class="fd-desc">Discover the best food over the 1,000 restaurants</p>
+                    <div class="d-flex flex-row justify-content-center">
+                        <button class="btn button">Book Now</button>
+                        <button class="btn btn-dark " onclick="display('sectionHomePage')">Home</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- myProject-newsPaperPage -->
+        <div class="myProject-newsPaperPage" id="sectionnewsPaperPage">
+
+            <div class="newspage-bg-container d-flex flex-column justify-content-end">
+                <div class="newspage-card d-flex flex-column">
+                    <p class="newspage-sub-heading">NEWS OF THE DAY</p>
+                    <h1 class="newspage-card-news-main-heading">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                    <p class="newspage-card-news-description">
+                        iB cricket and Viu together have announced the world's first virtual reality cricket league featuring 12 international
+                        cricketers,who will be completing against each other for the iB Cricket Super Over League title Mumbai.
+                        Iconic cricketers like Virender Sehwag Suresh Raina Bredon McCullum will be competing in the league.
+
+                    </p>
+                    <button class="newspage-card-read-more-button btn " onclick="display('sectionHomePage')">Home</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

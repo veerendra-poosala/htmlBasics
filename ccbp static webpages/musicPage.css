@@ -1,0 +1,150 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.music-pg-bg-container {}
+
+
+
+.music-home-pg {
+    font-family: "Bree Serif";
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.music-home-pg-top-section {
+    margin: 40px;
+    padding: 20px;
+}
+
+.music-home-pg-bg-container-heading {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.music-home-pg-bg-container-paragraph {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.music-home-pg-card {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.music-home-pg-card-top-section {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png  ');
+    background-size: cover;
+    height: 30vh;
+}
+
+
+
+.music-home-pg-card-heading {
+
+    font-size: 36px;
+    border-radius: 12px;
+
+
+}
+
+.music-home-pg-card-paragraph {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.music-home-pg-card-getStarted-button {
+    background-color: #8e97fd;
+    color: #ffffff;
+    padding: 3px;
+    height: 41px;
+    width: 120px;
+    border-radius: 30px;
+}
+
+.music-details-pg-bg-container {
+    background-color: #03174c;
+    background-size: cover;
+}
+
+.music-details-pg-top-section {
+    border-radius: 10px;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png');
+    height: 30vh;
+    background-size: cover;
+}
+
+.music-details-pg-middle-section {
+    margin: 10px;
+    padding: 10px;
+}
+
+.music-details-pg-middle-section-heading {
+    font-size: 26px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+.music-details-pg-middle-section-paragraph {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 5px;
+    color: #98a1bd;
+}
+
+.music-details-pg-bottom-section {
+    margin: 10px;
+    padding: 10px;
+}
+
+.music-details-pg-bottom-section-heading {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+.music-details-pg-bottom-section-image {
+    height: 120px;
+    width: 120px;
+
+}
+
+.music-details-pg-bottom-section-image-heading {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.music-details-pg-bottom-section-image-paragraph {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 5px;
+    color: #98a1bd;
+}
+
+.music-details-pg-bottom-section-back-button {
+    background-color: #8e97fd;
+    color: #ffe7bf;
+    border-radius: 20px;
+    height: 35px;
+    width: 70px;
+    margin: 10px;
+    padding: 5px;
+}

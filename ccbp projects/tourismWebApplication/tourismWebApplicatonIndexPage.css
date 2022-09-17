@@ -1,0 +1,179 @@
+/* writing css styles for tourism web application */
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* homePage css styles*/
+
+.home-page-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-page-tourism-card {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.home-page-main-heading {
+    font-family: "Roboto";
+}
+
+.home-page-paragraph {
+    font-family: "Roboto";
+}
+
+.home-page-button {
+    height: 36px;
+    width: 138px;
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+
+/* favoritePlacesSectionView styles*/
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+/* detailed view  page css styles */
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+/* detailed view by videos page css styles */
+
+.detailed-view-by-embed-bg-container {
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-by-embed-main-heading {
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.detailed-view-by-embed-card-text-container {
+    color: black;
+    border-radius: 5px;
+    font-family: "Roboto";
+
+    background-color: white;
+    text-align: center;
+    margin: 4px;
+    padding: 5px;
+}
+
+.detailed-view-by-embed-card-text-main-heading {
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.detailed-view-by-embed-card-text-description {
+    padding: 5px;
+    ;
+    text-align: left;
+}
+
+.detailed-view-by-embed-card-back-button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.detailed-view-by-embed-card-home-button {
+    padding: 10px;
+    margin: 10px;
+}
+
+/*  outer container*/
+
+.outer-container {
+
+    height: 80vw;
+    width: 60vw;
+}

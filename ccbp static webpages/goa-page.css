@@ -1,0 +1,47 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.goa-page-bg-container {
+    background-color: white;
+    font-family: "Roboto";
+}
+
+.goa-page-top-container {
+    margin: 8px;
+    padding: 15px;
+}
+
+.goa-page-top-container-description {
+    color: #9aa5b1;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.goa-page-top-container-heading {
+    color: #323f4b;
+    margin: 5px;
+    font-size: 18px;
+}
+
+
+.goa-page-more-pictures-container {
+    margin: 4px;
+    padding: 4px;
+}
+
+.goa-page-more-pictures-container-images {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.goa-page-more-pictures-container {}
+
+.goa-page-embed-video {
+    margin: 5px;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+}

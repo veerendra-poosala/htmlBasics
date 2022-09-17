@@ -1,0 +1,84 @@
+
+
+/* Style sheet for Quiz Question  page */
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.quiz-questoin-pg-bg-container {
+    background-color: #875fc0;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    text-align: right;
+    font-family: "Roboto";
+}
+
+.quiz-questoin-pg-bg-container-score {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    padding: 6px;
+    color: #ffffff;
+}
+
+.quiz-questoin-pg-top-section-text-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.quiz-questoin-pg-top-section-text-card-heading {
+    font-size: 20px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.quiz-questoin-pg-top-section-text-card-paragraph {
+    font-size: 14px;
+    color: #323f4b;
+    font-weight: 400;
+}
+
+.quiz-questoin-pg-bottom-section-text-card-image {}
+
+.quiz-questoin-pg-bottom-section-text-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.quiz-questoin-pg-bottom-section-text-card-optinos {
+    font-size: 14px;
+    color: #323f4b;
+    font-weight: lighter;
+    text-align: left;
+    padding: 15px;
+    margin: 6px;
+    border-style: solid;
+    border-color: #323f4b;
+    border-radius: 8px;
+    border-width: 1px;
+    list-style-type: none;
+
+}
+
+
+
+.quiz-questoin-pg-bottom-section-text-card-selected-option {
+    background-color: #875fc0;
+    color: #ffffff;
+}
+
+
+.quiz-questoin-pg-bottom-section-text-card-submit-button {
+    color: #ffffff;
+    background-color: #fbaf00;
+    font-weight: 500;
+
+}

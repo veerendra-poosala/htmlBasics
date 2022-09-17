@@ -1,0 +1,38 @@
+
+/* mobile phone specification page stylesheet */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.mobile-specification-page-bg-container {
+    font-family: "Roboto";
+
+}
+
+.mobile-specification-page-text-container {
+
+    border: 1px;
+    border-style: solid;
+    border-color: #707070;
+    padding: 8px;
+
+}
+
+.mobile-specification-page-text-heading {
+    color: #0a1f44;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 12px;
+
+}
+
+.mobile-specification-page-text-description-in-ul {}
+
+.mobile-specification-page-text-description-li {
+    color: #0a1f44;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+}

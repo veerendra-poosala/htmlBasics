@@ -1,0 +1,90 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.articles-page-home-page-bg-container {
+    background-color: #225db0;
+    font-family: "Roboto";
+
+}
+
+.articles-page-home-page-text-card {
+    margin: 10px;
+    padding: 25px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.articles-page-home-page-heading {
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.articles-page-home-page-paragraph {
+    font-size: 16px;
+}
+
+.articles-page-home-page-images-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.articles-page-home-page-image {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.articles-page-home-page-image-heading {
+    color: #12933;
+    font-size: 12px;
+
+    padding: 5px;
+}
+
+.articles-page-technology-page {}
+
+.articles-page-technology-page-bg-container {
+    background-color: #225db0;
+    font-family: "Roboto";
+}
+
+.articles-page-technology-page-carousel-card {
+    margin: 15px;
+    padding: 3px;
+}
+
+.articles-page-technology-page-text-card {
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.articles-page-technology-page-heading {
+    font-size: 24px;
+}
+
+.articles-page-technology-page-ul-list {}
+
+
+.articles-page-technology-page-list-item {
+    font-size: 14px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: lighter;
+}
+
+
+.articles-page-technology-page-back-button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    margin: 5px;
+    padding: 3px;
+}

@@ -1,0 +1,66 @@
+
+
+/* conferencePageStyleSheet */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.conference-page-bg-container {
+    font-family: "Roboto";
+}
+
+.conference-page-home-page-text-card {
+    text-align: center;
+    margin: 8px;
+    padding: 25px;
+}
+
+.conference-page-home-page-text-card-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #183b56;
+}
+
+.conference-page-home-page-text-card-paragraph {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #5a7184;
+}
+
+.conference-details-page-top-section-card {
+    text-align: center;
+}
+
+.conference-details-page-top-section-card-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    color: #183b56;
+}
+
+.conference-details-page-top-section-card-paragraph {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #5a7184;
+}
+
+.conference-details-page-middle-section-card {}
+
+.conference-details-page-middle-section-text-card {
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.conference-details-page-middle-section-card-heading {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #183b56;
+}
+
+.conference-details-page-middle-section-card-paragraph {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #5a7184;
+}

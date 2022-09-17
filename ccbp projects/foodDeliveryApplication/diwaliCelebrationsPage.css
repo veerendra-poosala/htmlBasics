@@ -1,0 +1,63 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.bg-container-diwali {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png');
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.main-heading-diwali {
+    color: white;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin: 4px;
+    font-family: "Caveat";
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.bottom-container-diwali {
+    background-color: #e6f6ff;
+    text-align: center;
+    padding: 16px;
+}
+
+.card-item-diwali {
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card-image-diwali {
+
+    height: 70px;
+    width: 50px;
+}
+
+.card-item-description-diwali {
+    color: #616e7c;
+    font-weight: normal;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.price-description-diwali {
+
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.button-diwali {
+    margin: 8px;
+    padding: 10px;
+}

@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="book-store-bg-container">
+        <!-- homepage -->
+        <div class="book-store-home-page" id="sectionHomePage">
+
+            <div class="book-store-home-page-bg-container">
+                <h1 class="book-store-home-page-heading">Popular Book</h1>
+                <div class="book-store-home-page-top-section">
+
+                    <!-- card for book cover image and description -->
+                    <div class="book-store-home-page-top-section-card d-flex flex-row">
+                        <!-- two cards one for image and another for description-->
+                        <div>
+                            <img class="book-top-card-cover-page" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" />
+                        </div>
+                        <div class="book-store-home-page-top-section-card-text d-flex flex-column ">
+                            <h1 class="top-section-book-heading">Wings of Fire</h1>
+                            <p class="top-section-book-paragraph">
+                                An Autobiography of Abdul Kalam
+                            </p>
+                            <p class="top-section-book-author-pagraph">
+                                by Arun Tiwary
+
+                            </p>
+                            <button class="top-section-book-readNow-button btn btn-primary" onclick="display('sectionBookWingsOfFire')">
+                                Read Now
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- bottom section 1 -->
+                <div class="book-store-home-page-bottom-section">
+
+                    <h1 class="book-store-home-page-bottom-section-heading">Recomended Books</h1>
+
+                    <div class="book-store-home-page-bottom-section-card d-flex flex-row ">
+                        <img class="book-bottom-card-cover-page" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" />
+                        <div class="book-bottom-card-text d-flex flex-column">
+                            <h1 class="book-bottom-card-text-heading">
+                                The 3 mistakes of my life
+                            </h1>
+                            <p class="book-bottom-card-text-paragraph">
+                                Indian author by Chetan Bhagat
+                            </p>
+                            <button class="top-section-book-readNow-button btn btn-primary" onclick="display('sectionBookWingsOfFire')">
+                                Read Now
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <!-- bottom section 2-->
+                    <div class="book-store-home-page-bottom-section-card card-2 d-flex flex-row ">
+                        <img class="book-bottom-card-cover-page" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" />
+                        <div class="book-bottom-card-text d-flex flex-column">
+                            <h1 class="book-bottom-card-text-heading">
+                                Harry Potter
+                            </h1>
+                            <p class="book-bottom-card-text-paragraph">
+                                and the sorcerer's stone by J.K.Rowling
+                            </p>
+                            <button class="top-section-book-readNow-button btn btn-primary" onclick="display('sectionBookWingsOfFire')">
+                                Read Now
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="book-store-details-pg-of-book-wings-of-fire" id="sectionBookWingsOfFire">
+
+            <div class="dt-pg-book-bg-container d-flex flex-column">
+                <div class="d-flex flex-row justify-content-center">
+                    <img class="dt-pg-cover-photo" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" />
+                </div>
+                <h1 class="dt-pg-cover-photo-heading">Wings of Fire</h1>
+                <p class="dt-pg-cover-book-author">
+                    by Arun Tiwari
+                </p>
+                <p class="dt-pg-cover-book-description">
+                    Every common man who by his sheer grit hard work<br />
+                    achieves success should share his story with the rest for<br />
+                    they may find inspiration and strength to go on,in his<br />
+                    story.The 'Wings of Fire' is one such autobiography by visionary<br />
+                    scientist Dr.APJ Abdul Kalam.who
+                    from very humble <br /> beginnings rose to be the President of India.
+                </p>
+                <div class="dt-pg-cover-book-buttons-card d-flex flex-row justify-content-center">
+                    <button class="dt-pg-cover-book-back-button btn" onclick="display('sectionHomePage')">Back</button>
+                    <button class="dt-pg-cover-book-buyNow-button btn btn-primary">Buy Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="book-store-details-pg-of-book-wings-of-fire" id="sectionBook3MistakesOfLife">
+
+            <div class="dt-pg-book-bg-container d-flex flex-column">
+                <div class="d-flex flex-row justify-content-center">
+                    <img class="dt-pg-cover-photo" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" />
+                </div>
+                <h1 class="dt-pg-cover-photo-heading">Wings of Fire</h1>
+                <p class="dt-pg-cover-book-author">
+                    by Arun Tiwari
+                </p>
+                <p class="dt-pg-cover-book-description">
+                    Every common man who by his sheer grit hard work<br />
+                    achieves success should share his story with the rest for<br />
+                    they may find inspiration and strength to go on,in his<br />
+                    story.The 'Wings of Fire' is one such autobiography by visionary<br />
+                    scientist Dr.APJ Abdul Kalam.who
+                    from very humble <br /> beginnings rose to be the President of India.
+                </p>
+                <div class="dt-pg-cover-book-buttons-card d-flex flex-row justify-content-center">
+                    <button class="dt-pg-cover-book-back-button btn" onclick="display('sectionHomePage')">Back</button>
+                    <button class="dt-pg-cover-book-buyNow-button btn btn-primary">Buy Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="book-store-details-pg-of-book-wings-of-fire" id="sectionBookHarryPotter">
+
+            <div class="dt-pg-book-bg-container d-flex flex-column">
+                <div class="d-flex flex-row justify-content-center">
+                    <img class="dt-pg-cover-photo" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" />
+                </div>
+                <h1 class="dt-pg-cover-photo-heading">Wings of Fire</h1>
+                <p class="dt-pg-cover-book-author">
+                    by Arun Tiwari
+                </p>
+                <p class="dt-pg-cover-book-description">
+                    Every common man who by his sheer grit hard work<br />
+                    achieves success should share his story with the rest for<br />
+                    they may find inspiration and strength to go on,in his<br />
+                    story.The 'Wings of Fire' is one such autobiography by visionary<br />
+                    scientist Dr.APJ Abdul Kalam.who
+                    from very humble <br /> beginnings rose to be the President of India.
+                </p>
+                <div class="dt-pg-cover-book-buttons-card d-flex flex-row justify-content-center">
+                    <button class="dt-pg-cover-book-back-button btn" onclick="display('sectionHomePage')">Back</button>
+                    <button class="dt-pg-cover-book-buyNow-button btn btn-primary">Buy Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

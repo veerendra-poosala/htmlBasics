@@ -1,0 +1,117 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.podCastPage-bg-container {
+    font-family: "Roboto";
+}
+
+.podCastPage-home-card-top-section {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    height: 30vh;
+    background-size: cover;
+}
+
+.podCastPage-home-card-main-heading {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 10px;
+}
+
+.podCastPage-home-card-middle-section {}
+
+
+.about-puri {
+    margin: 15px;
+}
+
+
+.podCastPage-images {
+    height: 120px;
+    width: 140px;
+}
+
+.podCastPage-person-name-heading {
+    font-size: 16px;
+    color: #151765;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.podCastPage-episodes-paragraph {
+    font-size: 14px;
+    color: #5a7184;
+
+    padding: 5px;
+    text-align: center;
+}
+
+.podCastPage-puri-card-bg-container {}
+
+.podCastPage-individual-card-top-section {
+    background-color: #151765;
+    padding: 20px;
+
+}
+
+.podCastPage-individual-card-top-section-paragraph {
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+
+}
+
+.podCastPage-individual-card-top-section-name-in-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 5px;
+
+}
+
+.podCastPage-individual-card-top-section-text-card {
+    margin: 10px;
+}
+
+.podCastPage-individual-card-bottom-section {
+    margin: 5px;
+    padding: 5px;
+}
+
+.podCastPage-individual-card-bottom-section-name-in-heading {
+    font-size: 14px;
+    font-weight: bold;
+    color: #151765;
+}
+
+.podCastPage-individual-card-bottom-section-text-card {
+    margin: 10px;
+    padding: 5px;
+}
+
+.podCastPage-individual-card-bottom-section-paragraph {
+    font-size: 12px;
+    color: #5a7184;
+    font-weight: lighter;
+}
+
+.podCastPage-individual-card-bottom-section-time-paragraph {
+    color: #5a7184;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.podCastPage-individual-card-back-button {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    background-color: #151765;
+    margin-right: 50px;
+}
