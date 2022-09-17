@@ -1,0 +1,888 @@
+[root@scriptbox remote_websetup]# history
+    1  cd /etc/
+    2  hostname scriptbox
+    3  exit
+    4  cd /opt/scripts/
+    5  cd /opt/
+    6  ls
+    7  mkdir scripts
+    8  cd scripts
+    9  ls
+   10  yum install vim -y
+   11  cd /root/
+   12  ls
+   13  yum install vim -y
+   14  cd /opt/scripts/
+   15  vim 1_script.sh
+   16  cd /tmp/
+   17  ls
+   18  cd /opt/scripts
+   19  vim 1_script.sh
+   20  cd /tmp/
+   21  mkdir webfies
+   22  ls
+   23  ls -l
+   24  cd /opt/script
+   25  cd /opt/scripts/
+   26  clear
+   27  vim 1_script.sh
+   28  chmod +x 1_script.sh
+   29  ./1_script.sh
+   30  vim 1_script.sh
+   31  ./1_script.sh
+   32  vim 1_script.sh
+   33  ./1_script.sh
+   34  systemctl status httpd
+   35  ip addr show
+   36  systemctl stop httpd
+   37  exit
+   38  /opt/scripts/
+   39  cd /opt/scripts/
+   40  ls
+   41  cd /vagrant/
+   42  ls
+   43  clear
+   44  ls -l
+   45  cp -r /opt/scripts/2119_gymso_fitness scriptboxdata/
+   46  cd scriptboxdata/
+   47  ls
+   48  cp -r /opt/scripts scriptboxdata/
+   49  ls
+   50  cd scriptboxdata/
+   51  ls
+   52  rm -rf 2119_gymso_fitness
+   53  ls
+   54  rm -rf 2119_gymso_fitness.zip.*
+   55  ls
+   56  clear
+   57  exit
+   58  systemctl status httpd
+   59  systemctl start httpd
+   60  systemctl status httpd
+   61  systemctl stop httpd
+   62  systemctl status httpd
+   63  clear
+   64  systemctl status httpd -l
+   65  exit
+   66  systemctl status httpd
+   67  systemctl start httpd
+   68  systemctl status httpd
+   69  clear
+   70  ip addr show
+   71  systemctl status httpd
+   72  clear
+   73  systemctl stop httpd
+   74  systemctl status httpd
+   75  cd /var/www/html
+   76  ls
+   77  exit
+   78  cd /opt/scripts/
+   79  ls
+   80  cat 1_script.sh
+   81  clear
+   82  ls
+   83  rm -rf 2119_gymso_fitness.zip.*
+   84  ls
+   85  mv -r 2119_gymso_fitness.zip > /dev/null
+   86  mv  2119_gymso_fitness.zip > /dev/null
+   87  rm -rf 2119_gymso_fitness.zip
+   88  ls
+   89  clear
+   90  vim 2_commandlineargs.sh
+   91  chmod +x 2_commandlineargs.sh
+   92  ls -l
+   93  ./2_
+   94  ./2_commandlineargs.sh
+   95  vim 2_commandlineargs.sh
+   96  clear
+   97  ./2_commandlineargs.sh
+   98  vim 2_commandlineargs.sh
+   99  ./2_commandlineargs.sh
+  100  clear
+  101  ./2_commandlineargs.sh firstvariable secondvariable
+  102  vim 2_commandlineargs.sh
+  103  ./2_commandlineargs.sh firstvariable secondvariable
+  104  clear
+  105  vim 2_commandlineargs.sh
+  106  ls
+  107  mv 1_script.sh 1_varibles_websetup.sh
+  108  ls
+  109  cp -r 1_varibles_websetup.sh 3_args_websetup.sh
+  110  ls
+  111  cat 3_args_websetup.sh
+  112  clear
+  113  vim 3_args_websetup.sh
+  114  ./3_args_websetup.sh https://www.tooplate.com/zip-templates/2092_shelf.zip 2092_shelf
+  115  ip addr show
+  116  clear
+  117  systemctl stop httpd
+  118  echo $?
+  119  echo $#
+  120  echo $$
+  121  echo $USER
+  122  echo $HOSTNAME
+  123  echo $RANDOM
+  124  echo $SECONDS
+  125  echo $LINENO
+  126  clear
+  127  echo $LINENO
+  128  SKILL="devops"
+  129  echo $SKILL
+  130  vim 3_args_websetup.sh
+  131  LS
+  132  ls
+  133  vim 2_commandlineargs.sh
+  134  ./2_commandlineargs.sh
+  135  clea
+  136  clear
+  137  free -m
+  138  free -m|grep Mem
+  139  free -m|grep Mem|awk '{print $4}'
+  140  free -m|grep Mem|awk '{print 4}'
+  141  free -m|grep Mem|awk '{print $5}'
+  142  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  143  FREE_RAM="free -m|grep Mem|awk '{print $4}"
+  144  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  145  echo "free Ram $FREE_RAM"
+  146  LS
+  147  ls
+  148  cp -r 3_args_websetup.sh 4_
+  149  ls
+  150  mv 4_ 4_command_subsituition.sh
+  151  ls
+  152  clear
+  153  vim 4_command_subsituition.sh
+  154  ./4_command_subsituition.sh
+  155  clear
+  156  cat 4_command_subsituition.sh
+  157  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  158  cat 3_args_websetup.sh
+  159  clear
+  160  vim 4_command_subsituition.sh
+  161  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  162  echo $FREE_RAM
+  163  ./4_command_subsituition.sh
+  164  vim 4_command_subsituition.sh
+  165  ./4_command_subsituition.sh
+  166  vim 4_command_subsituition.sh
+  167  ./4_command_subsituition.sh
+  168  vim 4_command_subsituition.sh
+  169  ./4_command_subsituition.sh
+  170  vim 4_command_subsituition.sh
+  171  clear
+  172  ./4_command_subsituition.sh
+  173  vim 4_command_subsituition.sh
+  174  ./4_command_subsituition.sh
+  175  clear
+  176  ./4_command_subsituition.sh
+  177  vim 4_command_subsituition.sh
+  178  ./4_command_subsituition.sh
+  179  cd /root/
+  180  ls
+  181  ls -a
+  182  vim .bashrc
+  183  echo $SEASON
+  184  SEASON="mONSOON"
+  185  echo $SEASON
+  186  exit
+  187  echo $SEASON
+  188  cd /etc/
+  189  ls
+  190  clear
+  191  ls -l profilw
+  192  ls -l profile
+  193  vim profile
+  194  echo $SEASON
+  195  exit
+  196  cd /opt/scripts/
+  197  ls
+  198  mkdir shellScriptFiles
+  199  exit
+  200  systemctl status httpd
+  201  exit
+  202  cd /opt/scripts/
+  203  ls
+  204  cp -r 4_command_subsituition.sh 5_gettingUserInput.sh
+  205  clear
+  206  vim 5_
+  207  ls
+  208  vim 5_
+  209  vim 5_gettingUserInput.sh
+  210  rm -r 5_gettingUserInput.sh
+  211  mv 5_ 5_gettingUserInput.sh
+  212  ls
+  213  chmod +x 5_gettingUserInput.sh
+  214  ls -l
+  215  clear
+  216  ./5_gettingUserInput.sh
+  217  clear
+  218  cd /root/
+  219  cd /vagrant
+  220  ls
+  221  cd scriptboxdata/
+  222  ls
+  223  clear
+  224  cd /vagrant/
+  225  cp -r /opt/scripts/* scriptboxdata/
+  226  vi /etc/hostname
+  227  hostname scriptbox
+  228  exit
+  229  cd /opt/scripts/
+  230  ls -l
+  231  vim 6_ifElse.sh
+  232  chmod +x 6_ifElse.sh
+  233  ./6_ifElse.sh
+  234  clear
+  235  vim 6_ifElse.sh
+  236  ./6_ifElse.sh
+  237  cleaR
+  238  clear
+  239  vim 7_elseIf_or_nestedif.sh
+  240  ip addr show
+  241  ip addr show | grep -v LOOPBACK | grep mtu
+  242  vim 7_elseIf_or_nestedif.sh
+  243  chmod +x 7_elseIf_or_nestedif.sh
+  244  ./7_elseIf_or_nestedif.sh
+  245  vim 7_elseIf_or_nestedif.sh
+  246  ./7_elseIf_or_nestedif.sh
+  247  vim 7_elseIf_or_nestedif.sh
+  248  ./7_elseIf_or_nestedif.sh
+  249  clear
+  250  ls
+  251  vim 8_nestedif.sh
+  252  chmod +x 8_nestedif.sh
+  253  ls /var/run/httpd/httpd.pid
+  254   /var/run/httpd/httpd.pid
+  255  cd /var/run/httpd/httpd.pid
+  256  cd /var/run/httpd/
+  257  ls
+  258  ./http.pd
+  259  clear
+  260  ls /var/run/httpd/httpd.pid
+  261  systemctl status httpd
+  262  systemctl stop httpd
+  263  systemctl status httpd
+  264  clear
+  265  ls /var/run/httpd/httpd.pid
+  266  ls
+  267  clear
+  268  cd /opt/scripts/
+  269  ls
+  270  vim 8_nestedif.sh
+  271  clear
+  272  systemctl status httpd
+  273  clear
+  274  ./8_nestedif.sh
+  275  vim 8_nestedif.sh
+  276  systemctl status httpd
+  277  systemctl stop httpd
+  278  clear
+  279  systemctl status httpd
+  280  clear
+  281  ./8_nestedif.sh
+  282  systemctl status httpd
+  283  systemctl stop httpd
+  284  clear
+  285  vim 8_nestedif.sh
+  286  ./8_nestedif.sh
+  287  systemctl stop httpd
+  288  crontab -e
+  289  ls
+  290  touce 9_monit.sh
+  291  touch 9_monit.sh
+  292  ls -l
+  293  chmod +x 9_monit.sh
+  294  ls -l
+  295  clear
+  296  exit
+  297  ssh vagrant@web01
+  298  clear
+  299  ssh vagrant@web02
+  300  ssh vagrant@web03
+  301  clear
+  302  whoami
+  303  who
+  304  ssh vagrant@web01
+  305  ssh vagrant@web02
+  306  clear
+  307  ssh devops@web02
+  308  ssh devops@web01
+  309  clear
+  310  exit
+  311  cd /opt/scripts/
+  312  ls
+  313  vim 10_for.sh
+  314  chmod +x 10_for.sh
+  315  ./10_for.sh
+  316  vim 10_for.sh
+  317  ./10_for.sh
+  318  vim 10_for.sh
+  319  ./10_for.sh
+  320  vim 10_for.sh
+  321  ./10_for.sh
+  322  vim 10_for.sh
+  323  ./10_for.sh
+  324  clear
+  325  vim 11_while.sh
+  326  chmod +x 11_while.sh
+  327  ./11_while.sh
+  328  vim 11_while.sh
+  329  ./11_while.sh
+  330  vim 11_while.sh
+  331  ./11_while.sh
+  332  vim 11_while.sh
+  333  ./11_while.sh
+  334  clear
+  335  vim /etc/hosts
+  336  ip addr show
+  337  vim /etc/hosts
+  338  clear
+  339  ping web01
+  340  ssh vagrant@web03
+  341  ssh vagrant@web01
+  342  ssh devops@web01
+  343  ssh vagrant@web03
+  344  clear
+  345  ssh devops@web01 uptime
+  346  ssh devops@web03 uptime
+  347  clear
+  348  ssh-keygen
+  349  vim
+  350  ssh-copy-id devops@web01
+  351  ssh devops@web01
+  352  clear
+  353  ssh-copy-id devops@web02
+  354  ssh-copy-id devops@web03
+  355  ssh devops@web03
+  356  clear
+  357  ls -a
+  358  ls .ssh/
+  359  car known_hosts
+  360  cat known_hosts
+  361  clear
+  362  ls .ssh/
+  363  cat id_rsa
+  364  cat .ssh/id_rsa
+  365  cat .ssh/known_hosts
+  366  clear
+  367  mkdir remote_websetup
+  368  rm -r remote_websetup/
+  369  cd /opt/scripts/
+  370  mkdir remote_websetup
+  371  cd remote_websetup/
+  372  ls
+  373  clear
+  374  vim remotehosts
+  375  mv remotehosts remhosts
+  376  ls
+  377  for host in `cat remhosts`;do echo $host;done
+  378  for host in `cat remhosts`;do ssh devops@$host uptime;done
+  379  clear
+  380  for host in `cat remhosts`;do ssh devops@$host sudo yum install git -y;done
+  381  clear
+  382  ls
+  383  ls ../
+  384  cat ../1_varibles_websetup.sh
+  385  cp ../1_varibles_websetup.sh  .
+  386  ls
+  387  mv 1_varibles_websetup.sh remoteWebsetup.sh
+  388  ls
+  389  clear
+  390  ls
+  391  vim remoteWebsetup.sh
+  392  cat remoteWebsetup.sh
+  393  clear
+  394  ls -l
+  395  mv remoteWebsetup.sh remoteWebsetupOnMultiOs.sh
+  396  ls -l
+  397  ./remoteWebsetupOnMultiOs.sh
+  398  clear
+  399  cat remhosts
+  400  for host in `cat remhosts`;do ./remoteWebsetupOnMultiOs.sh;done
+  401  vim remoteWebsetup.sh
+  402  vim remoteWebsetupOnMultiOs.sh
+  403  ssh devops@web01 ip addr show
+  404  ssh devops@web01 ifconfig
+  405  clear
+  406  ssh devops@web03 ip addr show
+  407  for host in `cat remhosts`;do systemctl start httpd;done
+  408  for host in `cat remhosts`;do systemctl status httpd;done
+  409  clear
+  410  for host in `cat remhosts`;do systemctl stop httpd;done
+  411  for host in `cat remhosts`;do systemctl stop apache2;done
+  412  vim remho
+  413  vim remhosts
+  414  for host in `cat remhosts`;do systemctl status httpd;done
+  415  clear
+  416  exit
+  417  ./
+  418  /
+  419  cd /
+  420  ls -l
+  421  ls -a
+  422  exit
+  423  cd /opt/scripts/remote_websetup/
+  424  clear
+  425  ls
+  426  scp -i ~/.ssh/id_rsa testfile.txt devops@web01:/home/devops/
+  427  cat testfile.txt
+  428  cleat
+  429  clear
+  430  ls -l
+  431  vim wevdeploy.sh
+  432  ls -l
+  433  vim remhosts
+  434  mv -r wevdeploy.sh webdeploy_on_multipleos.sh
+  435  mv  wevdeploy.sh webdeploy_on_multipleos.sh
+  436  ls
+  437  vim webdeploy_on_multipleos.sh
+  438  chmod +x webdeploy_on_multipleos.sh
+  439  ./webdeploy_on_multipleos.sh
+  440  clear
+  441  vim webdeploy_on_multipleos.sh
+  442  ./webdeploy_on_multipleos.sh
+  443  history
+[root@scriptbox remote_websetup]# history
+    1  cd /etc/
+    2  hostname scriptbox
+    3  exit
+    4  cd /opt/scripts/
+    5  cd /opt/
+    6  ls
+    7  mkdir scripts
+    8  cd scripts
+    9  ls
+   10  yum install vim -y
+   11  cd /root/
+   12  ls
+   13  yum install vim -y
+   14  cd /opt/scripts/
+   15  vim 1_script.sh
+   16  cd /tmp/
+   17  ls
+   18  cd /opt/scripts
+   19  vim 1_script.sh
+   20  cd /tmp/
+   21  mkdir webfies
+   22  ls
+   23  ls -l
+   24  cd /opt/script
+   25  cd /opt/scripts/
+   26  clear
+   27  vim 1_script.sh
+   28  chmod +x 1_script.sh
+   29  ./1_script.sh
+   30  vim 1_script.sh
+   31  ./1_script.sh
+   32  vim 1_script.sh
+   33  ./1_script.sh
+   34  systemctl status httpd
+   35  ip addr show
+   36  systemctl stop httpd
+   37  exit
+   38  /opt/scripts/
+   39  cd /opt/scripts/
+   40  ls
+   41  cd /vagrant/
+   42  ls
+   43  clear
+   44  ls -l
+   45  cp -r /opt/scripts/2119_gymso_fitness scriptboxdata/
+   46  cd scriptboxdata/
+   47  ls
+   48  cp -r /opt/scripts scriptboxdata/
+   49  ls
+   50  cd scriptboxdata/
+   51  ls
+   52  rm -rf 2119_gymso_fitness
+   53  ls
+   54  rm -rf 2119_gymso_fitness.zip.*
+   55  ls
+   56  clear
+   57  exit
+   58  systemctl status httpd
+   59  systemctl start httpd
+   60  systemctl status httpd
+   61  systemctl stop httpd
+   62  systemctl status httpd
+   63  clear
+   64  systemctl status httpd -l
+   65  exit
+   66  systemctl status httpd
+   67  systemctl start httpd
+   68  systemctl status httpd
+   69  clear
+   70  ip addr show
+   71  systemctl status httpd
+   72  clear
+   73  systemctl stop httpd
+   74  systemctl status httpd
+   75  cd /var/www/html
+   76  ls
+   77  exit
+   78  cd /opt/scripts/
+   79  ls
+   80  cat 1_script.sh
+   81  clear
+   82  ls
+   83  rm -rf 2119_gymso_fitness.zip.*
+   84  ls
+   85  mv -r 2119_gymso_fitness.zip > /dev/null
+   86  mv  2119_gymso_fitness.zip > /dev/null
+   87  rm -rf 2119_gymso_fitness.zip
+   88  ls
+   89  clear
+   90  vim 2_commandlineargs.sh
+   91  chmod +x 2_commandlineargs.sh
+   92  ls -l
+   93  ./2_
+   94  ./2_commandlineargs.sh
+   95  vim 2_commandlineargs.sh
+   96  clear
+   97  ./2_commandlineargs.sh
+   98  vim 2_commandlineargs.sh
+   99  ./2_commandlineargs.sh
+  100  clear
+  101  ./2_commandlineargs.sh firstvariable secondvariable
+  102  vim 2_commandlineargs.sh
+  103  ./2_commandlineargs.sh firstvariable secondvariable
+  104  clear
+  105  vim 2_commandlineargs.sh
+  106  ls
+  107  mv 1_script.sh 1_varibles_websetup.sh
+  108  ls
+  109  cp -r 1_varibles_websetup.sh 3_args_websetup.sh
+  110  ls
+  111  cat 3_args_websetup.sh
+  112  clear
+  113  vim 3_args_websetup.sh
+  114  ./3_args_websetup.sh https://www.tooplate.com/zip-templates/2092_shelf.zip 2092_shelf
+  115  ip addr show
+  116  clear
+  117  systemctl stop httpd
+  118  echo $?
+  119  echo $#
+  120  echo $$
+  121  echo $USER
+  122  echo $HOSTNAME
+  123  echo $RANDOM
+  124  echo $SECONDS
+  125  echo $LINENO
+  126  clear
+  127  echo $LINENO
+  128  SKILL="devops"
+  129  echo $SKILL
+  130  vim 3_args_websetup.sh
+  131  LS
+  132  ls
+  133  vim 2_commandlineargs.sh
+  134  ./2_commandlineargs.sh
+  135  clea
+  136  clear
+  137  free -m
+  138  free -m|grep Mem
+  139  free -m|grep Mem|awk '{print $4}'
+  140  free -m|grep Mem|awk '{print 4}'
+  141  free -m|grep Mem|awk '{print $5}'
+  142  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  143  FREE_RAM="free -m|grep Mem|awk '{print $4}"
+  144  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  145  echo "free Ram $FREE_RAM"
+  146  LS
+  147  ls
+  148  cp -r 3_args_websetup.sh 4_
+  149  ls
+  150  mv 4_ 4_command_subsituition.sh
+  151  ls
+  152  clear
+  153  vim 4_command_subsituition.sh
+  154  ./4_command_subsituition.sh
+  155  clear
+  156  cat 4_command_subsituition.sh
+  157  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  158  cat 3_args_websetup.sh
+  159  clear
+  160  vim 4_command_subsituition.sh
+  161  FREE_RAM=`free -m|grep Mem|awk '{print $4}'`
+  162  echo $FREE_RAM
+  163  ./4_command_subsituition.sh
+  164  vim 4_command_subsituition.sh
+  165  ./4_command_subsituition.sh
+  166  vim 4_command_subsituition.sh
+  167  ./4_command_subsituition.sh
+  168  vim 4_command_subsituition.sh
+  169  ./4_command_subsituition.sh
+  170  vim 4_command_subsituition.sh
+  171  clear
+  172  ./4_command_subsituition.sh
+  173  vim 4_command_subsituition.sh
+  174  ./4_command_subsituition.sh
+  175  clear
+  176  ./4_command_subsituition.sh
+  177  vim 4_command_subsituition.sh
+  178  ./4_command_subsituition.sh
+  179  cd /root/
+  180  ls
+  181  ls -a
+  182  vim .bashrc
+  183  echo $SEASON
+  184  SEASON="mONSOON"
+  185  echo $SEASON
+  186  exit
+  187  echo $SEASON
+  188  cd /etc/
+  189  ls
+  190  clear
+  191  ls -l profilw
+  192  ls -l profile
+  193  vim profile
+  194  echo $SEASON
+  195  exit
+  196  cd /opt/scripts/
+  197  ls
+  198  mkdir shellScriptFiles
+  199  exit
+  200  systemctl status httpd
+  201  exit
+  202  cd /opt/scripts/
+  203  ls
+  204  cp -r 4_command_subsituition.sh 5_gettingUserInput.sh
+  205  clear
+  206  vim 5_
+  207  ls
+  208  vim 5_
+  209  vim 5_gettingUserInput.sh
+  210  rm -r 5_gettingUserInput.sh
+  211  mv 5_ 5_gettingUserInput.sh
+  212  ls
+  213  chmod +x 5_gettingUserInput.sh
+  214  ls -l
+  215  clear
+  216  ./5_gettingUserInput.sh
+  217  clear
+  218  cd /root/
+  219  cd /vagrant
+  220  ls
+  221  cd scriptboxdata/
+  222  ls
+  223  clear
+  224  cd /vagrant/
+  225  cp -r /opt/scripts/* scriptboxdata/
+  226  vi /etc/hostname
+  227  hostname scriptbox
+  228  exit
+  229  cd /opt/scripts/
+  230  ls -l
+  231  vim 6_ifElse.sh
+  232  chmod +x 6_ifElse.sh
+  233  ./6_ifElse.sh
+  234  clear
+  235  vim 6_ifElse.sh
+  236  ./6_ifElse.sh
+  237  cleaR
+  238  clear
+  239  vim 7_elseIf_or_nestedif.sh
+  240  ip addr show
+  241  ip addr show | grep -v LOOPBACK | grep mtu
+  242  vim 7_elseIf_or_nestedif.sh
+  243  chmod +x 7_elseIf_or_nestedif.sh
+  244  ./7_elseIf_or_nestedif.sh
+  245  vim 7_elseIf_or_nestedif.sh
+  246  ./7_elseIf_or_nestedif.sh
+  247  vim 7_elseIf_or_nestedif.sh
+  248  ./7_elseIf_or_nestedif.sh
+  249  clear
+  250  ls
+  251  vim 8_nestedif.sh
+  252  chmod +x 8_nestedif.sh
+  253  ls /var/run/httpd/httpd.pid
+  254   /var/run/httpd/httpd.pid
+  255  cd /var/run/httpd/httpd.pid
+  256  cd /var/run/httpd/
+  257  ls
+  258  ./http.pd
+  259  clear
+  260  ls /var/run/httpd/httpd.pid
+  261  systemctl status httpd
+  262  systemctl stop httpd
+  263  systemctl status httpd
+  264  clear
+  265  ls /var/run/httpd/httpd.pid
+  266  ls
+  267  clear
+  268  cd /opt/scripts/
+  269  ls
+  270  vim 8_nestedif.sh
+  271  clear
+  272  systemctl status httpd
+  273  clear
+  274  ./8_nestedif.sh
+  275  vim 8_nestedif.sh
+  276  systemctl status httpd
+  277  systemctl stop httpd
+  278  clear
+  279  systemctl status httpd
+  280  clear
+  281  ./8_nestedif.sh
+  282  systemctl status httpd
+  283  systemctl stop httpd
+  284  clear
+  285  vim 8_nestedif.sh
+  286  ./8_nestedif.sh
+  287  systemctl stop httpd
+  288  crontab -e
+  289  ls
+  290  touce 9_monit.sh
+  291  touch 9_monit.sh
+  292  ls -l
+  293  chmod +x 9_monit.sh
+  294  ls -l
+  295  clear
+  296  exit
+  297  ssh vagrant@web01
+  298  clear
+  299  ssh vagrant@web02
+  300  ssh vagrant@web03
+  301  clear
+  302  whoami
+  303  who
+  304  ssh vagrant@web01
+  305  ssh vagrant@web02
+  306  clear
+  307  ssh devops@web02
+  308  ssh devops@web01
+  309  clear
+  310  exit
+  311  cd /opt/scripts/
+  312  ls
+  313  vim 10_for.sh
+  314  chmod +x 10_for.sh
+  315  ./10_for.sh
+  316  vim 10_for.sh
+  317  ./10_for.sh
+  318  vim 10_for.sh
+  319  ./10_for.sh
+  320  vim 10_for.sh
+  321  ./10_for.sh
+  322  vim 10_for.sh
+  323  ./10_for.sh
+  324  clear
+  325  vim 11_while.sh
+  326  chmod +x 11_while.sh
+  327  ./11_while.sh
+  328  vim 11_while.sh
+  329  ./11_while.sh
+  330  vim 11_while.sh
+  331  ./11_while.sh
+  332  vim 11_while.sh
+  333  ./11_while.sh
+  334  clear
+  335  vim /etc/hosts
+  336  ip addr show
+  337  vim /etc/hosts
+  338  clear
+  339  ping web01
+  340  ssh vagrant@web03
+  341  ssh vagrant@web01
+  342  ssh devops@web01
+  343  ssh vagrant@web03
+  344  clear
+  345  ssh devops@web01 uptime
+  346  ssh devops@web03 uptime
+  347  clear
+  348  ssh-keygen
+  349  vim
+  350  ssh-copy-id devops@web01
+  351  ssh devops@web01
+  352  clear
+  353  ssh-copy-id devops@web02
+  354  ssh-copy-id devops@web03
+  355  ssh devops@web03
+  356  clear
+  357  ls -a
+  358  ls .ssh/
+  359  car known_hosts
+  360  cat known_hosts
+  361  clear
+  362  ls .ssh/
+  363  cat id_rsa
+  364  cat .ssh/id_rsa
+  365  cat .ssh/known_hosts
+  366  clear
+  367  mkdir remote_websetup
+  368  rm -r remote_websetup/
+  369  cd /opt/scripts/
+  370  mkdir remote_websetup
+  371  cd remote_websetup/
+  372  ls
+  373  clear
+  374  vim remotehosts
+  375  mv remotehosts remhosts
+  376  ls
+  377  for host in `cat remhosts`;do echo $host;done
+  378  for host in `cat remhosts`;do ssh devops@$host uptime;done
+  379  clear
+  380  for host in `cat remhosts`;do ssh devops@$host sudo yum install git -y;done
+  381  clear
+  382  ls
+  383  ls ../
+  384  cat ../1_varibles_websetup.sh
+  385  cp ../1_varibles_websetup.sh  .
+  386  ls
+  387  mv 1_varibles_websetup.sh remoteWebsetup.sh
+  388  ls
+  389  clear
+  390  ls
+  391  vim remoteWebsetup.sh
+  392  cat remoteWebsetup.sh
+  393  clear
+  394  ls -l
+  395  mv remoteWebsetup.sh remoteWebsetupOnMultiOs.sh
+  396  ls -l
+  397  ./remoteWebsetupOnMultiOs.sh
+  398  clear
+  399  cat remhosts
+  400  for host in `cat remhosts`;do ./remoteWebsetupOnMultiOs.sh;done
+  401  vim remoteWebsetup.sh
+  402  vim remoteWebsetupOnMultiOs.sh
+  403  ssh devops@web01 ip addr show
+  404  ssh devops@web01 ifconfig
+  405  clear
+  406  ssh devops@web03 ip addr show
+  407  for host in `cat remhosts`;do systemctl start httpd;done
+  408  for host in `cat remhosts`;do systemctl status httpd;done
+  409  clear
+  410  for host in `cat remhosts`;do systemctl stop httpd;done
+  411  for host in `cat remhosts`;do systemctl stop apache2;done
+  412  vim remho
+  413  vim remhosts
+  414  for host in `cat remhosts`;do systemctl status httpd;done
+  415  clear
+  416  exit
+  417  ./
+  418  /
+  419  cd /
+  420  ls -l
+  421  ls -a
+  422  exit
+  423  cd /opt/scripts/remote_websetup/
+  424  clear
+  425  ls
+  426  scp -i ~/.ssh/id_rsa testfile.txt devops@web01:/home/devops/
+  427  cat testfile.txt
+  428  cleat
+  429  clear
+  430  ls -l
+  431  vim wevdeploy.sh
+  432  ls -l
+  433  vim remhosts
+  434  mv -r wevdeploy.sh webdeploy_on_multipleos.sh
+  435  mv  wevdeploy.sh webdeploy_on_multipleos.sh
+  436  ls
+  437  vim webdeploy_on_multipleos.sh
+  438  chmod +x webdeploy_on_multipleos.sh
+  439  ./webdeploy_on_multipleos.sh
+  440  clear
+  441  vim webdeploy_on_multipleos.sh
+  442  ./webdeploy_on_multipleos.sh
+  443  history

@@ -1,0 +1,21 @@
+ 1  sudo amazon-linux-extras install epel -y
+    2  sudo yum install stress -y
+    3  stress
+    4  stress -?
+    5  clear
+    6  nohup stress -c 4 -t 300 &
+    7  top
+    8  clear
+    9  pwd
+   10  ls -a
+   11  vi stress.sh
+   12  ls -a
+   13  ls -d stress.sh
+   14  ls -l
+   15  cat stress.sh
+   16  chmod x+ stress.sh
+   17  chmod +x stress.sh
+   18  ls -l
+   19  nohup ./stress.sh
+   20  clear
+   21  history

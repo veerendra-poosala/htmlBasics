@@ -1,0 +1,58 @@
+
+
+
+
+
+ echo "update yum package"
+    2  sudo yum update
+    3  clear
+    4  sudo yum install wget unzip apache2 -y
+    5  sudo yum install wget unzip appache2 -y
+    6  sudo yum install httpd -y
+    7  clear
+    8  mkdir -help
+    9  mkdir --help
+   10  mkdir -p /tmp/webfiles
+   11  cd /tmp/webfiles/
+   12  wget https://www.tooplate.com/zip-templates/2098_health.zip
+   13  ls
+   14  rm -rf 2098_health.zip
+   15  ls
+   16  ls -a
+   17  wget https://www.tooplate.com/zip-templates/2098_health.zip &> /dev/null
+   18  ls
+   19  unzip --help
+   20  unzip -u 2098_health.zip &> /dev/null
+   21  ls
+   22  mv -r 2098_health /var/www/html/
+   23  mv --help
+   24  mv -f 2098_health /var/www/html/
+   25  ls
+   26  cd /var/www/html/
+   27  ls
+   28  systemctl start httpd
+   29  systemctl status httpd
+   30  ls 2098_health/
+   31  systemctl restart httpd
+   32  systemctl stop httpd
+   33  clear
+   34  rm -rf 2098_health/
+   35  ls
+   36  cd /tmp/webfiles/
+   37  ls
+   38  rm -rf 2098_health.zip
+   39  ls
+   40  wget https://www.tooplate.com/zip-templates/2098_health.zip
+   41  unzip -u 2098_health.zip > /dev/null
+   42  ls
+   43  mv --help
+   44  clear
+   45  mv -f 2098_health/* /var/www/html/
+   46  ls
+   47  cd /var/www/html/
+   48  ls
+   49  clear
+   50  systemctl restart httpd
+   51  systemctl status httpd
+   52  histroy
+   53  history

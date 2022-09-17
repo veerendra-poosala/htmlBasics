@@ -1,0 +1,70 @@
+root@ip-172-31-87-100:~# history
+    1  apt update
+    2  clear
+    3  sudo apt install wget apache2 unzip -y
+    4  clear
+    5  ls
+    6  ls -a
+    7  pwd
+    8  cd /tmp/
+    9  ls -l
+   10  mkdir web
+   11  ls
+   12  cd web/
+   13  wget https://www.tooplate.com/zip-templates/2119_gymso_fitness.zip
+   14  unzip -r 2119_gymso_fitness.zip
+   15  unzip -u 2119_gymso_fitness.zip
+   16  clear
+   17  ls
+   18  mv 2119_gymso_fitness/* /var/www/html/
+   19  cd /var/www/html/
+   20  ls
+   21  cd /root/
+   22  pwd
+   23  ls
+   24  clear
+   25  systemctl start apache2
+   26  systemctl status apache2
+   27  clear
+   28  cd /var/www/html/
+   29  ls
+   30  fdisk -l
+   31  clear
+   32  df -h
+   33  fdisk -l
+   34  cd /root/
+   35  fdisk /dev/xvdf
+   36  fdisk -l
+   37  mkfs.ext4 /dev/xvdf1
+   38  fdisk -l
+   39  cd /var/www/html/
+   40  mkdir /tmp/img-backups
+   41  mv images/* /tmp/img-backups/
+   42  ls images/
+   43  cd
+   44  mount /dev/xvdf1 /var/www/html/images/
+   45  df -h
+   46  clear
+   47  vi /etc/fstab
+   48  vi /etc/fstab
+   49  mount -a
+   50  df -h
+   51  mv /tmp/img-backups/* /var/www/html/
+   52  clear
+   53  systemctl restart apache2
+   54  vi /etc/selinux/config
+   55  cd /etc/selinux/
+   56  ls -a
+   57  ls -l
+   58  cat semanage.conf
+   59  clear
+   60  cd .
+   61  cd ..
+   62  ls
+   63  history
+   64  reboot
+   65  clear
+   66  fdisk -l
+   67  clear
+   68  df -h
+   69  history

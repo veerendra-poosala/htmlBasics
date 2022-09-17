@@ -1,0 +1,25 @@
+ 1  
+ #commands for efs mounting
+ 
+ cd /var/www/html/
+    2  ls
+    3  vi ABOUT\ THIS\ TEMPLATE.txt
+    4  vi index.html
+    5  ls css
+    6  vi css/font-awesome.min.css
+    7  ls images/
+    8  sudo yum install -y amazon-efs-utils
+    9  mkdir -p /tmp/web-img
+   10  cp -r images/* /tmp/web-img/
+   11  ls images/
+   12  rm -rf images/*
+   13  ls images/
+   14  clear
+   15  vi /etc/fstab
+   16  mount -fav
+   17  df -h
+   18  mv --help
+   19  mv -f /tmp/web-img/* images/
+   20  ls images/*
+   21  clear
+   22  history

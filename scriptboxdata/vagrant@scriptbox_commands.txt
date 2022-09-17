@@ -1,0 +1,26 @@
+[vagrant@scriptbox ~]$ history
+    1  sudo -i
+    2  exit
+    3  sudo -i
+    4  exit
+    5  sudo -i
+    6  exit
+    7  sudo -i
+    8  echo $SEASON
+    9  exit
+   10  sudo -i
+   11  exit
+   12  echo $SEASON
+   13  sudo -i
+   14  exit
+   15  sudo -i
+   16  exit
+   17  sudo -i
+   18  exit
+   19  clear
+   20  sudo -i
+   21  sudo -i
+   22  clear
+   23  sudo -i
+   24  exit
+   25  history
